@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="979.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="common.controller.EditController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Case Number" />
+      <Label layoutX="184.0" layoutY="14.0" text="Case Number 2" />
+      <Label layoutX="374.0" layoutY="14.0" text="Case Number 3" />
+      <Label layoutX="571.0" layoutY="14.0" text="Case Number 4" />
+      <TextField fx:id="CaseNumberField1" layoutX="14.0" layoutY="35.0" prefHeight="31.0" prefWidth="128.0" />
+      <TextField fx:id="CaseNumberField2" layoutX="184.0" layoutY="35.0" prefHeight="31.0" prefWidth="128.0" />
+      <TextField fx:id="CaseNumberField3" layoutX="374.0" layoutY="35.0" prefHeight="31.0" prefWidth="128.0" />
+      <TextField fx:id="CaseNumberField4" layoutX="571.0" layoutY="35.0" prefHeight="31.0" prefWidth="128.0" />
+      <Label layoutX="14.0" layoutY="89.0" text="Offense Location" />
+      <TextArea fx:id="OffenseLocationField" layoutX="14.0" layoutY="110.0" prefHeight="31.0" prefWidth="264.0" />
+      <Label layoutX="325.0" layoutY="89.0" text="Item ID" />
+      <Label layoutX="448.0" layoutY="89.0" text="Number" />
+      <Label layoutX="605.0" layoutY="89.0" text="Offense Type" />
+      <TextField fx:id="ItemIDField" layoutX="317.0" layoutY="110.0" prefHeight="31.0" prefWidth="64.0" />
+      <TextField fx:id="NumberField" layoutX="443.0" layoutY="110.0" prefHeight="31.0" prefWidth="64.0" />
+      <TextField fx:id="OffenseTypeField" layoutX="581.0" layoutY="110.0" prefHeight="31.0" prefWidth="184.0" />
+      <Label layoutX="15.0" layoutY="188.0" text="Evidence Description" />
+      <Label layoutX="334.0" layoutY="188.0" text="Evidence Type" />
+      <Label layoutX="591.0" layoutY="188.0" text="Victim/Complaint" />
+      <TextArea fx:id="EvidenceDescriptionField" layoutX="14.0" layoutY="209.0" prefHeight="31.0" prefWidth="264.0" />
+      <TextField fx:id="EvidenceTypeField" layoutX="312.0" layoutY="209.0" prefHeight="31.0" prefWidth="212.0" />
+      <TextArea fx:id="VictimComplaintField" layoutX="591.0" layoutY="209.0" prefHeight="31.0" prefWidth="264.0" />
+      <Label layoutX="15.0" layoutY="275.0" text="Suspect" />
+      <Label layoutX="254.0" layoutY="275.0" text="Reason Seized" />
+      <Label layoutX="549.0" layoutY="275.0" text="Date of Recovery" />
+      <TextField fx:id="SuspectField" layoutX="6.0" layoutY="296.0" prefHeight="31.0" prefWidth="212.0" />
+      <TextArea fx:id="ReasonSeizedField" layoutX="241.0" layoutY="296.0" prefHeight="31.0" prefWidth="264.0" />
+      <TextField fx:id="DateOfRecoveryField" layoutX="549.0" layoutY="296.0" prefHeight="31.0" prefWidth="138.0" />
+      <Label layoutX="14.0" layoutY="355.0" text="Recovered By" />
+      <Label layoutX="233.0" layoutY="355.0" text="Location of Recovery" />
+      <TextField fx:id="RecoveredByFeild" layoutX="11.0" layoutY="376.0" prefHeight="31.0" prefWidth="175.0" />
+      <TextField fx:id="LocationOfRecoveryField" layoutX="233.0" layoutY="376.0" prefHeight="31.0" prefWidth="184.0" />
+      <Label layoutX="490.0" layoutY="355.0" text="Transported By" />
+      <Label layoutX="699.0" layoutY="355.0" text="Temporary Location" />
+      <TextField fx:id="TransportedByField" layoutX="474.0" layoutY="376.0" prefHeight="31.0" prefWidth="169.0" />
+      <TextField fx:id="TemporaryLocationField" layoutX="699.0" layoutY="376.0" prefHeight="31.0" prefWidth="169.0" />
+      <Label layoutX="14.0" layoutY="429.0" text="Evidence Room Location" />
+      <Label layoutX="247.0" layoutY="429.0" text="Case Status" />
+      <Label layoutX="452.0" layoutY="429.0" text="Case Officer" />
+      <TextField fx:id="EvidenceRoomLocationField" layoutX="16.0" layoutY="458.0" prefHeight="31.0" prefWidth="175.0" />
+      <TextField fx:id="CaseOfficeField" layoutX="447.0" layoutY="453.0" prefHeight="31.0" prefWidth="169.0" />
+      <Label layoutX="222.0" layoutY="509.0" text="Date of Disposition" />
+      <Label layoutX="20.0" layoutY="509.0" text="Disposition" />
+      <TextField fx:id="DispositionField" layoutX="16.0" layoutY="530.0" prefHeight="31.0" prefWidth="175.0" />
+      <TextField fx:id="DateOfDispositionField" layoutX="217.0" layoutY="530.0" prefHeight="31.0" prefWidth="138.0" />
+      <Button fx:id="ConfirmButton" layoutX="568.0" layoutY="595.0" mnemonicParsing="false" onAction="#onConfirmButton" text="Save" />
+      <Button fx:id="CancelButton" layoutX="687.0" layoutY="595.0" mnemonicParsing="false" onAction="#onCancelButton" text="Cancel" />
+      <RadioButton fx:id="activeRB" layoutX="223.0" layoutY="458.0" mnemonicParsing="false" text="Active" />
+      <RadioButton fx:id="inactiveRB" layoutX="312.0" layoutY="458.0" mnemonicParsing="false" text="Inactive" />
+   </children>
+</Pane>

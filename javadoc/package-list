@@ -1,0 +1,8 @@
+client
+common.controller
+common.mediator
+common.model
+common.utility
+common.view
+server
+someTesting

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="256.0" prefWidth="688.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="24.0" layoutY="17.0" prefHeight="45.0" prefWidth="670.0" text="Welcome to Evidence Managment Software">
+         <font>
+            <Font name="Garamond" size="38.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="74.0" prefHeight="21.0" prefWidth="197.0" text="Search for evidence items:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="102.0" text="Step 1: Select a criteria from the drop-down menu by which you want to search items." />
+      <Label layoutX="25.0" layoutY="137.0" text="Step 2: Enter the criteria' s content into the text area above." />
+      <Label layoutX="24.0" layoutY="169.0" prefHeight="22.0" prefWidth="530.0" text="Step 3: Press the &quot;Search&quot; button to get a list of items that contain your criteria." />
+      <Label layoutX="72.0" layoutY="200.0" prefHeight="21.0" prefWidth="501.0" text="Press &quot;Back to full list&quot; if you want to go to the list with all evidence items." />
+   </children>
+</Pane>
